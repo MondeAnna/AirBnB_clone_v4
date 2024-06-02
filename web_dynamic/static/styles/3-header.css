@@ -5,7 +5,7 @@ header {
     border-bottom: 1px solid #CCCCCC;
 }
 
-header .api_status {
+header#api_status {
   height: 40px;
   width: 40px;
   background-color: #cccccc;
@@ -14,7 +14,7 @@ header .api_status {
   margin-right: 30px;
 }
 
-header .available {
+header#api_status.available {
     background-color: #ff545f;
 }
 
